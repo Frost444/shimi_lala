@@ -35,4 +35,4 @@ repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14 --depth=1
 git clone https://github.com/Frost444/local_manifests_odessa.git -b main .repo/local_manifests
 
 # sync
-repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j8
+repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j10
