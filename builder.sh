@@ -29,7 +29,7 @@ mkdir lineage2
 cd lineage2
 
 # init repo
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b thirteen --depth=1
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 13 --depth=1
 
 # clone manifest
 git clone https://github.com/Frost444/local_manifests_odessa.git -b main13 .repo/local_manifests
