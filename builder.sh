@@ -29,10 +29,10 @@ mkdir lineage2
 cd lineage2
 
 # init repo
-repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle --depth=1
+repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs --no-clone-bundle --depth=1
 
 # clone manifest
-git clone https://github.com/Frost444/local_manifests_blossom.git -b lineage_23 .repo/local_manifests
+git clone https://github.com/Frost444/local_manifests_blossomy.git -b main .repo/local_manifests
 
 # sync
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j10
