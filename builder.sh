@@ -29,7 +29,7 @@ mkdir lineage2
 cd lineage2
 
 # init repo
-repo init -u https://github.com/Lunaris-AOSP/android -b 16 --git-lfs --depth=1
+repo init -u https://github.com/crdroidandroid/android.git -b 16.0-qpr0 --git-lfs --no-clone-bundle
 
 # clone manifest
 git clone https://github.com/Frost444/local_manifests_odessa.git -b main15 .repo/local_manifests
